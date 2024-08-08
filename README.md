@@ -11,6 +11,16 @@ VinePair internal dashboard displaying trends for 65 different types of wines, b
 * Google Sign-in for company emails (example@vinepair.com)
 * Sign-in will not authorize non-VinePair emails
 ## Dashboard Page
+### Overview
+
+<p style="display: flex; justify-content: space-between;">
+    <img alt="login" src="images/login page.png" width="49%">
+    &nbsp;
+    &nbsp;
+    <img alt="graph" src="images/graph.png" width="46%">
+</p>
+
+
 ### Headers
 * Weighting defaults to OLD
 * Beverage type and score options
