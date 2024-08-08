@@ -23,7 +23,7 @@ VinePair internal dashboard displaying trends for 65 different types of wines, b
 
 ### Navigating The Chart
 * Hover to view beverage and score for any given data point
-<img alt="data tag" src="./images/image2.png" width=40%>
+<img alt="data tag" src="./images/image2.png" width=30%>
 
 * To hide other beverages, click on the legend for that beverage. The line graph will drop from the chart.
 
@@ -66,12 +66,12 @@ VinePair internal dashboard displaying trends for 65 different types of wines, b
 ### Exporting
 * The export button is the three dots (...) on the top right corner of the graph.
 <div style="display: flex; flex-direction: column; align-items: center; margin-left: 10px;">
-    <img src="./images/image9.png" alt="headers" width="78%">
+    <img src="./images/image9.png" alt="headers" width="60%">
 </div>
 
 * Export only exports visible line graphs within the time range of the bottom slider bar.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin-left: 10px;">
-    <img src="./images/image5.png" alt="headers" width="78%">
+    <img src="./images/image5.png" alt="headers" width="60%">
     <p style="font-size:12px; text-align: center;">Chart only displays and exports Macro, Sour Gose, Radler, and Seltzer from Apr 2021 - June 2024</p>
 </div>
