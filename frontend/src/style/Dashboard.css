@@ -1,0 +1,72 @@
+.chart-contents {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.chartBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 100vh;
+}
+
+.chartBody.Wine {
+  height: 850px;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 3%;
+}
+
+.left-wrapper,
+.right-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-header {
+  display: none;
+}
+
+h3,
+h4 {
+  margin: 0px;
+}
+
+@media (max-width: 800px) {
+  .hamburger-header {
+    display: flex;
+    padding-top: 10px;
+    z-index: 10;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .right-wrapper {
+    display: none;
+  }
+
+  .left-wrapper {
+    width: 100%;
+    align-items: start;
+    align-self: start;
+    justify-content: center;
+    position: fixed;
+  }
+
+  .chartBody.Wine {
+    height: 140vh;
+  }
+}

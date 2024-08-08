@@ -1,0 +1,25 @@
+{
+  "name": "vp-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.10.0",
+    "aws-sdk": "^2.1668.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "react-refresh": "^0.13.0",
+    "vite": "^4.0.0",
+    "vite-plugin-mkcert": "^1.17.5"
+  }
+}

@@ -1,0 +1,42 @@
+
+.buttons {
+    background-color: var(--poppy);
+    padding: 0.6em 1.2em;
+    border-radius: 8px;
+    height: 3em;
+    margin: 2% 0%;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.logInPage {
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+}
+
+.logInContent {
+    display: flex;
+    flex-basis: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+p {
+  margin: 0% auto;
+  align-self: center;
+} 

@@ -1,0 +1,58 @@
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-decoration:none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: gopher, sans-serif;
+}
+
+.dropdown-content {
+  display: block;
+  align-items: start;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+}
+
+
+a {
+  padding: 0.6em 1.2em;
+  font-family: gopher, sans-serif;
+}
+
+.radio {
+  padding: 0.2em 0.2em 0.2em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radioTick {
+margin: 4%;
+}
+
+@media (max-width: 767px) {
+
+  .dropdown {
+    position: relative;
+    display: block;
+    
+  }
+  .dropdown-content {
+    display: inline-block;
+    align-items: start;
+    position: absolute;
+    min-width: 170px;
+    color: var(--white);
+  }
+
+}
