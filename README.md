@@ -18,7 +18,7 @@ VinePair internal dashboard displaying trends for 65 different types of wines, b
 
 * Weighting type is displayed underneath the displayed beverage and weighting
 
-<img alt="bev and weights" src="./images/image7.png" width=50% style="margin-left:9%">
+<img alt="bev and weights" src="./images/image7.png" width=40% style="margin-left:9%">
 
 
 ### Navigating The Chart
@@ -30,11 +30,11 @@ VinePair internal dashboard displaying trends for 65 different types of wines, b
 
 <div style="display: flex; align-items: flex-start; margin-left:7%">
     <div style="margin-right: 10px;">
-        <img src="./images/image1.png" alt="headers" width="78%">
+        <img src="./images/image1.png" alt="headers" width="50%">
         <p>Line graph hidden</p>
     </div>
     <div>
-        <img src="./images/image8.png" alt="headers" width="70%">
+        <img src="./images/image8.png" alt="headers" width="50%">
         <p>Line graph displayed</p>
     </div>
 </div>
