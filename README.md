@@ -1,5 +1,5 @@
 # VinePair Audience Insights Dashboard
-VinePair internal dashboard displaying trends for 65 different types of wines, beers, and spirits. Created with Amcharts, React.js, and Firebase Authentication.
+VinePair internal dashboard displaying SEO trends for 65 different types of wines, beers, and spirits. Created with Amcharts, React.js, and Firebase Authentication.
 
 # Features
 1. Google Login for VinePair emails
